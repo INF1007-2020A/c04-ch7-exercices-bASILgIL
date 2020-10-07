@@ -22,5 +22,6 @@ if __name__ == '__main__':
 
     print(volume_masse())
     #voir pq ca fonctionne pas --print(f"Le volume de l'ellipsoide est de {volume} m^3 et sa masse est de {masse} kg.")
-    print((lambda sentence:sorted(frequence(sentence, key=frequence(sentence).__getitem__)[-1])("ceci est une phrase")))
+    print((lambda sentence: sorted(frequence(sentence), key=frequence(sentence).__getitem__)[-1])("bbbig bbbig test"))
+    #print((lambda sentence: sorted(frequence(sentence), key=frequence(sentence).__getitem__)[-1])("ceci est une phrase"))
     print(frequence("phrases"))
